@@ -1,0 +1,1 @@
+function e(e,t){return e.receiptCodes?.[t]??`R-${String(e.receipts.seq[t]).padStart(7,`0`)}`}export{e as t};

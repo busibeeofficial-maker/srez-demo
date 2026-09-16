@@ -1,0 +1,1 @@
+function e(e,t,n=`text/csv;charset=utf-8`){let r=new Blob([t],{type:n}),i=URL.createObjectURL(r),a=document.createElement(`a`);a.href=i,a.download=e,a.rel=`noopener`,a.style.display=`none`,document.body.appendChild(a),a.click(),a.remove(),setTimeout(()=>URL.revokeObjectURL(i),0)}function t(t,n){e(t.endsWith(`.csv`)?t:`${t}.csv`,n)}export{t};

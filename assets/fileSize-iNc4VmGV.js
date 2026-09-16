@@ -1,0 +1,1 @@
+import{Si as e,xi as t,yi as n}from"./index-D5jqDcjH.js";function r(r){if(!Number.isFinite(r)||r<0)return n;if(r<1024)return`${e(r)} Б`;if(r<1048576){let e=r/1024;return`${t(e,+(e<10&&!Number.isInteger(e)))} КБ`}let i=r/1048576;return`${t(i,+(i<10&&!Number.isInteger(i)))} МБ`}export{r as t};
